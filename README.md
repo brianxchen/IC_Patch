@@ -23,9 +23,12 @@ make clean
 make pgaspart
 ```
 
-To run: \n
+To run:
+
 ./pgaspart ngas xmin xmax seed > outputfile,
+
 e.g.
+
 ```bash
 ./pgaspart 1000 -0.5 0.5 1 > gas.tbin
 ```
